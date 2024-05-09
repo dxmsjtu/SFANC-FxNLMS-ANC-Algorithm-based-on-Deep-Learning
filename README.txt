@@ -1,6 +1,10 @@
 Description：
 This is the code of SPL paper "A Hybrid SFANC-FxNLMS Algorithm for Active Noise Control based on Deep Learning".
-The paper proposes a hybrid SFANC-FxNLMS approach to overcome the adaptive algorithm's slow convergence and provide a better noise reduction level than the SFANC method. A lightweight one-dimensional convolutional neural network (1D CNN) is designed to automatically select the most suitable pre-trained control filter for each frame of the primary noise. Meanwhile, the FxNLMS algorithm continues to update the coefficients of the chosen pre-trained control filter at the sampling rate.
+The paper proposes a hybrid SFANC-FxNLMS approach to overcome the adaptive algorithm's slow convergence and provide
+ a better noise reduction level than the SFANC method. A lightweight one-dimensional convolutional neural network 
+ (1D CNN) is designed to automatically select the most suitable pre-trained control filter for each frame of the 
+ primary noise. Meanwhile, the FxNLMS algorithm continues to update the coefficients of the chosen pre-trained 
+ control filter at the sampling rate.
 
 
 Platform: NVIDIA-SMI 466.47, Driver Version: 466.47, CUDA Version: 11.3
